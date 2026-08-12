@@ -1,10 +1,10 @@
 [![NPM version](https://img.shields.io/npm/v/@file-type/cfbf.svg)](https://npmjs.org/package/@file-type/cfbf)
-[![Node.js CI](https://github.com/Borewit/file-type-cfbf/actions/workflows/nodejs-ci.yml/badge.svg)](https://github.com/Borewit/file-type-cfbf/actions/workflows/nodejs-ci.yml)
+[![Node.js CI](https://github.com/Unity-Billal-mesloub/file-type-cfbf/actions/workflows/nodejs-ci.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/file-type-cfbf/actions/workflows/nodejs-ci.yml)
 [![npm downloads](http://img.shields.io/npm/dm/@file-type/cfbf.svg)](https://npmcharts.com/compare/@file-type/cfbf?start=365)
 
 # @file-type/cfbf
 
-Detector plugin for [file-type](https://github.com/sindresorhus/file-type) that identifies files based on the [Compound File Binary Format](https://en.wikipedia.org/wiki/Compound_File_Binary_Format),
+Detector plugin for [file-type](https://github.com/Unity-Billal-mesloub/file-type) that identifies files based on the [Compound File Binary Format](https://en.wikipedia.org/wiki/Compound_File_Binary_Format),
 commonly known as CFBF or OLE Compound Document.
 
 CFBF is a container format used by many legacy Microsoft Office files and other Windows applications. This plugin detects the container itself, not the specific document content inside it.
@@ -17,7 +17,7 @@ npm install @file-type/cfbf
 
 ## Usage
 
-The following example shows how add the CFBF detector to [file-type](https://github.com/sindresorhus/file-type).
+The following example shows how add the CFBF detector to [file-type](https://github.com/Unity-Billal-mesloub/file-type).
 ```js
 import {FileTypeParser} from 'file-type';
 import {detectCfbf} from '@file-type/cfbf';
@@ -45,6 +45,3 @@ used by Microsoft Office prior to Office 2007:
 Other files:
 - `.msi`  [Windows installer files](https://en.wikipedia.org/wiki/Windows_Installer)
 
-## Licence
-
-This project is licensed under the [MIT License](LICENSE.txt). Feel free to use, modify, and distribute as needed.
